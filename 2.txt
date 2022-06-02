@@ -1,0 +1,3 @@
+2.
+alter table Person add constraint tblPerson_GenderId_FK
+foreign key (GenderId) references Gender(Id)
