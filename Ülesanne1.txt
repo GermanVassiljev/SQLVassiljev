@@ -1,0 +1,11 @@
+1. Определите правильность написания кода. Поставьте в квадратные скобки исправление рядом с ошибкой
+CREATE TABLE tabel(
+ID int not null Primary key(1,1),
+Tabel Nimi varchar (50))
+
+INSERT INTO tabel(Tabel Nimi)
+VALUES (Nimi)
+
+SELECT FROM tabel
+2.
+3.
