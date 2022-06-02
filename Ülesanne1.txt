@@ -1,12 +1,21 @@
-1. Определите правильность написания кода. Поставьте в квадратные скобки исправление рядом с ошибкой
+﻿1. Определите правильность написания кода. Поставьте в квадратные скобки исправление рядом с ошибкой
 CREATE TABLE tabel(
-ID int not null Primary key(1,1),
+ID int [not null] Primary key(1,1),
 Tabel Nimi varchar (50))
+
 
 INSERT INTO tabel(Tabel Nimi)
 VALUES (Nimi)
 
-SELECT FROM tabel
+SELECT * FROM tabel
 WHERE ID==1;
 2. Как создать ограничение, которое связывает таблицы?
+Foreign key
 3. Используя исправленную таблицу первого задания, сделайте изменения с ним(Обновите запись и удалите её)
+
+1)Update Tabel Nimi
+set Nimi = "Alex"
+where nimi like 'Mati';
+select * from laps
+2)DELETE FROM Tabel Nimi 
+    WHERE ID = 1
