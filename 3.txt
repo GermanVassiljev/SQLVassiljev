@@ -1,0 +1,7 @@
+3.
+UPDATE tabel
+SET Tabel_Nimi='Boris'
+WHERE Tabel_Nimi='Nimi';
+
+DELETE FROM tabel
+WHERE koht='Boris';
